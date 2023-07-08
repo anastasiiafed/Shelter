@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io(3)/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io(3)/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io(3)/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io(3)/site.webmanifest" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="logo">
+          <a href="index.html">
+            <h1>Cozy House</h1>
+            <h2>Shelter for pets in Boston</h2></a
+          >
+        </div>
+        <nav class="burger_menu" id="burger_menu">
+          <ul>
+            <li><a href="index.html">About the shelter</a></li>
+            <li class="open"><a href="#">Our pets</a></li>
+            <li><a href="index.html#help">Help the shelter</a></li>
+            <li><a href="#footer">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="burger" id="burger_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+    </div>
+    <section class="our_friends">
+      <div class="wrapper">
+        <h3>Our friends who<br />are looking for a house</h3>
+        <div class="friends_cards">
+          <div class="friends_card">
+            <img src="img/pets-katrine.svg" alt="cat Katrina" />
+            <h4 class="friends_name">Katrine</h4>
+            <button class="card_button">Learn more</button>
+          </div>
+          <div class="friends_card the_middle">
+            <img src="img/pets-jennifer.svg" alt="pappy Jennifer" />
+            <h4 class="friends_name">Jennifer</h4>
+            <button class="card_button">Learn more</button>
+          </div>
+          <div class="friends_card">
+            <img src="img/pets-woody.svg" alt="dog Woody" />
+            <h4 class="friends_name">Woody</h4>
+            <button class="card_button">Learn more</button>
+          </div>
+          <div class="friends_card display_none_mobile">
+            <img src="img/pets-sofia.svg" alt="puppy Sophia" />
+            <h4 class="friends_name">Sophia</h4>
+            <button class="card_button">Learn more</button>
+          </div>
+          <div class="friends_card the_middle display_none_mobile">
+            <img src="img/pets-timmy.svg" alt="cat Timmy" />
+            <h4 class="friends_name">Timmy</h4>
+            <button class="card_button">Learn more</button>
+          </div>
+          <div class="friends_card display_none_mobile">
+            <img src="img/pets-charly.svg" alt="dog Charly" />
+            <h4 class="friends_name">Charly</h4>
+            <button class="card_button">Learn more</button>
+          </div>
+          <div class="friends_card friends_card_none display_none_mobile">
+            <img src="img/pets-scarlet.svg" alt="cdog Scarlett" />
+            <h4 class="friends_name">Scarlett</h4>
+            <button class="card_button">Learn more</button>
+          </div>
+          <div
+            class="friends_card the_middle friends_card_none display_none_mobile"
+          >
+            <img src="img/pets-freddie.svg" alt="cat Freddie" />
+            <h4 class="friends_name">Freddie</h4>
+            <button class="card_button">Learn more</button>
+          </div>
+        </div>
+        <div class="friends_buttons">
+          <div class="grey_button"><span class="button_text">&#60;</span></div>
+          <div class="grey_button">
+            <span class="button_text">&#60;&#60;</span>
+          </div>
+          <div class="peach_button button_active">
+            <span class="button_text">1</span>
+          </div>
+          <div class="peach_button"><span class="button_text">></span></div>
+          <div class="peach_button"><span class="button_text">>></span></div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="wrapper">
+        <div class="footer_contact">
+          <div class="footer_contact_first">
+            <h3>For questions and suggestions</h3>
+            <a class="contact_first_flex" href="mailto:myemail@mail.ru">
+              <img src="img/icon-email.svg" alt="" />
+              <p>email@shelter.com</p>
+            </a>
+            <a class="contact_first_flex" href="tel:+74951234567">
+              <img src="img/icon-phone.svg" alt="" />
+              <p>+13 674 567 75 54</p>
+            </a>
+          </div>
+          <div class="footer_contact_second">
+            <h3>We are waiting for your visit</h3>
+            <a
+              class="contact_second_flex"
+              href="https://goo.gl/maps/PBSkSfdcPMEhdUQK9"
+              target="_blank"
+            >
+              <img src="img/icon-marker.svg" alt="" />
+              <p>1 Central Street, Boston (entrance from the store)</p>
+            </a>
+            <a
+              class="contact_second_flex"
+              href="https://goo.gl/maps/PBSkSfdcPMEhdUQK9"
+              target="_blank"
+            >
+              <img src="img/icon-marker.svg" alt="" />
+              <p>18 South Park, London</p>
+            </a>
+          </div>
+
+          <img
+            src="img/footer-puppy.svg"
+            alt="Footer puppy"
+            class="footer_puppy"
+          />
+        </div>
+      </div>
+    </footer>
+    <div class="overlay"></div>
+  </body>
+  <script src="main.js"></script>
+</html>
